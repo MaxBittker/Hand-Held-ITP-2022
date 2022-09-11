@@ -1,0 +1,13 @@
+{
+  "name": "notion-builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.4.16",
+    "node-fetch": "^2.6.0"
+  },
+  "scripts": {
+    "build": "node notion_export.js 10dd8a954ca54e9caa151d71b611e949 && rm export.zip"
+  }
+}
